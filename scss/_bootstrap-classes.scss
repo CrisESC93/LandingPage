@@ -1,0 +1,57 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Monotype Corsiva Italic';
+    pointer-events: none;
+}
+
+.navbar-light .navbar-brand {
+    color: $light-blue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Work Sans';
+    color: $custom-gray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $light-blue;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: $custom-gray;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row, .card-deck {
+    margin: 0;
+}
+
+.card-deck .card {
+    margin: 0 16px;
+}
+
+.btn-primary {
+    border-color: $light-blue;
+    background-color: $light-blue;
+    color: white;
+}
+
+.btn-primary:hover {
+    border-color: $dark-blue;
+    background-color: $dark-blue;
+    color: white;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba($color: $light-blue, $alpha: 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    border-color: $dark-blue;
+    background-color: $dark-blue;
+    color: white;
+}

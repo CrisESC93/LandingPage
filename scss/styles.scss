@@ -1,0 +1,143 @@
+@import "colors", "fonts", "html-elements", "bootstrap-classes";
+
+.main-container {
+    flex: 1 0 auto;
+}
+
+.col-spacing {
+    margin: 0;
+    padding: 0;
+}
+
+.hospital-banner-image {
+    width: 100%;
+}
+
+.hospital-slogan-container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.hospital-slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+h1, p.hospital-slogan-text {
+    color: $custom-gray;
+}
+
+p.hospital-slogan-text {
+    font-size: 2rem;
+}
+
+.row-title {
+    padding: 16px 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-underline {
+    width: 48px;
+    height: 4px;
+    margin: 4px 0 0 0;
+    padding: 0;
+    background-color: $light-blue;
+}
+
+.row-container {
+    padding: 16px 32px;
+    align-items: center;
+}
+
+.hospital-logotype-image {
+    text-align: center;
+}
+
+.speciality-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.speciality-image {
+    width: 128px;
+}
+
+.speciality-title {
+    text-align: center;
+}
+
+ul.services-spacing {
+    margin: 0;
+}
+
+li.services-list {
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.services-list-images {
+    width: 48px;
+    margin-right: 8px;
+}
+
+.services-list-title {
+    margin: 0;
+}
+
+#contact {
+    margin-bottom: 16px;
+}
+
+.strong-button {
+    border-width: 2px;
+    border-color: $light-blue;
+    background-color: $light-blue;
+    color: white;
+}
+
+.strong-button:hover {
+    border-width: 2px;
+    border-color: $light-blue;
+    background-color: white;
+    color: $light-blue;
+}
+
+.light-button {
+    border-width: 2px;
+    border-color: $light-blue;
+    background-color: $light-blue;
+    color: white;
+}
+
+.light-button:hover {
+    border-width: 2px;
+    border-color: $light-blue;
+    background-color: white;
+    color: $light-blue;
+}
+
+.footer {
+    flex-shrink: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $light-blue;
+    color: white;
+}
+
+.footer-image {
+    width: 24px;
+}
+
+.footer-image, .footer-text {
+    margin: 8px;
+}

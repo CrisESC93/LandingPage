@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Monotype Corsiva Italic";
+  src: url("../fonts/Monotype Corsiva.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.ttf") format("truetype");
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Monotype Corsiva Italic";
+  font-size: 4rem;
+}
+
+h2, h3, h4, h5, p, label, button {
+  font-family: "Work Sans";
+}
+
+h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4, p, label, button {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: "Monotype Corsiva Italic";
+  pointer-events: none;
+}
+
+.navbar-light .navbar-brand {
+  color: #29ABE2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Work Sans";
+  color: #606060;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #29ABE2;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #606060;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row, .card-deck {
+  margin: 0;
+}
+
+.card-deck .card {
+  margin: 0 16px;
+}
+
+.btn-primary {
+  border-color: #29ABE2;
+  background-color: #29ABE2;
+  color: white;
+}
+
+.btn-primary:hover {
+  border-color: #2392C1;
+  background-color: #2392C1;
+  color: white;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(41, 171, 226, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  border-color: #2392C1;
+  background-color: #2392C1;
+  color: white;
+}
+
+.main-container {
+  flex: 1 0 auto;
+}
+
+.col-spacing {
+  margin: 0;
+  padding: 0;
+}
+
+.hospital-banner-image {
+  width: 100%;
+}
+
+.hospital-slogan-container {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.hospital-slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+h1, p.hospital-slogan-text {
+  color: #606060;
+}
+
+p.hospital-slogan-text {
+  font-size: 2rem;
+}
+
+.row-title {
+  padding: 16px 32px 0 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-underline {
+  width: 48px;
+  height: 4px;
+  margin: 4px 0 0 0;
+  padding: 0;
+  background-color: #29ABE2;
+}
+
+.row-container {
+  padding: 16px 32px;
+  align-items: center;
+}
+
+.hospital-logotype-image {
+  text-align: center;
+}
+
+.speciality-image-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.speciality-image {
+  width: 128px;
+}
+
+.speciality-title {
+  text-align: center;
+}
+
+ul.services-spacing {
+  margin: 0;
+}
+
+li.services-list {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+}
+
+.services-list-images {
+  width: 48px;
+  margin-right: 8px;
+}
+
+.services-list-title {
+  margin: 0;
+}
+
+#contact {
+  margin-bottom: 16px;
+}
+
+.strong-button {
+  border-width: 2px;
+  border-color: #29ABE2;
+  background-color: #29ABE2;
+  color: white;
+}
+
+.strong-button:hover {
+  border-width: 2px;
+  border-color: #29ABE2;
+  background-color: white;
+  color: #29ABE2;
+}
+
+.light-button {
+  border-width: 2px;
+  border-color: #29ABE2;
+  background-color: #29ABE2;
+  color: white;
+}
+
+.light-button:hover {
+  border-width: 2px;
+  border-color: #29ABE2;
+  background-color: white;
+  color: #29ABE2;
+}
+
+.footer {
+  flex-shrink: 0;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #29ABE2;
+  color: white;
+}
+
+.footer-image {
+  width: 24px;
+}
+
+.footer-image, .footer-text {
+  margin: 8px;
+}
+
+/*# sourceMappingURL=styles.css.map */
